@@ -1,0 +1,43 @@
+.navbar{
+    display:flex;
+    width: 1440px;
+    height: 72px;
+    justify-content: space-around;
+    position:fixed;
+    background-color: white;
+    z-index:1000;
+}
+
+.navbar1{
+    display:flex;
+    flex-direction:row;
+}
+
+
+.hi img{
+    width: 162.58px;
+    height: 24.01px;
+    top: -0.01px;
+    left: -0.01px;
+}
+
+.navbar form{
+    width: 360px;
+    height: 42px;
+    top: 16px;
+    left: 540px;
+    border-radius: 21px;
+}
+
+.navbar p{
+    width: 183px;
+    height: 21px;
+    top: 27px;
+    left: 1161px;
+}
+
+@media screen and (max-width:1200px ){
+    .navbar{
+        display:none;
+    }
+}

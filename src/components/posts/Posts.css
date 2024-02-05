@@ -1,0 +1,99 @@
+.container2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between  ;
+}
+
+.banner-image {
+    width: 100%;
+    height: auto; /* To maintain aspect ratio */
+  }
+  
+
+.container1{
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container3{
+    display:flex;
+    flex-direction:row;
+}
+
+
+.text-group{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.post-group{
+    display:flex;
+    flex-direction:column;
+}
+
+.single-post{
+    border:1px solid #E0E0E0;
+    width: 100%;
+    top: 628px;
+    left: 200px;
+    padding-bottom:10px;
+    margin-bottom:10px;
+}
+
+.single-post .text{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight:bold;
+    font-size:22px;
+}
+
+.container_tag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container_tag .container_tag1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mob{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:1200px ){
+    .container2{
+        display:none;
+    }
+    .container3{
+        display:none;
+    }
+}
+
+@media screen and (max-width:981px){
+    .container1{
+        display:none;
+    }
+}
+
+@media screen and (min-width:981px){
+    .mob{
+        display:none;
+    }
+}
+
+@media (max-width: 775px) {
+    .custom-container {
+      max-width: none; /* Override the Bootstrap container's max-width */
+      left:0px;
+      width:100%;
+    }
+}

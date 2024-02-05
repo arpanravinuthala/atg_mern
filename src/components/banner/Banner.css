@@ -1,0 +1,37 @@
+.text-over-img {
+    position: relative;
+  }
+  
+  .banner-image {
+    width: 100%;
+    height: auto; /* To maintain aspect ratio */
+  }
+  
+  .department {
+    position: absolute;
+    color: white;
+    top: 65%;
+    left: 10%;
+  }
+  
+  .department3 {
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    border-color: white;
+    color: white;
+  }
+  
+  .department1 {
+    position: absolute;
+    color: white;
+    top: 75%;
+    left: 10%;
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .department3 {
+      display: none;
+    }
+  }
+  
